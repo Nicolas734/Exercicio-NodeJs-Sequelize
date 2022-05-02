@@ -1,7 +1,7 @@
 import bodyParser from "body-parser";
 import express  from "express";
 import db from './config/db.js';
-import anotacoesRouter from './routes/index.js'
+import anotacoesRouter from './routes/anotacoesRouter.js'
 
 const app = express();
 app.use(express.json())
